@@ -1,0 +1,57 @@
+/*  Global Styles  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #2980b9;
+}
+
+/* Navigation */
+.site-nav ul {
+    list-style: none;
+    background-color: #2c3e50;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.site-nav li {
+    margin: 0;
+}
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
+.site-nav a:hover {
+    background-color: #34495e;
+}
+
+/* Card Sections (Box Model Demo) */
+.card {
+    background-color: white;
+    margin: 20px auto;       /* Margin for space around the card */
+    padding: 15px;           /* Padding inside the card */
+    border: 2px solid #ccc;  /* Border around the card */
+    max-width: 600px;        /* Fixed width for layout control */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-top: 4px solid #2980b9;
+}
